@@ -32,6 +32,7 @@ body, html {
   width: 1000px;
   height: 520px;
   margin: 0 auto;
+  margin-top: calc((100vh - 520px) / 2);
   border: 5px solid rgb(190, 209, 85);
   border-radius: 5px;
   background: rgba(233, 208, 120, 1);
