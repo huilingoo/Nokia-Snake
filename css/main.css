@@ -25,7 +25,7 @@ body, html {
   height: 100%;
   padding: 10px 0;
   box-sizing: border-box;
-  background: url(../imgs/bg.jpg);
+  /* background: url(../imgs/bg.jpg); */
 }
 .bg-in{
   overflow: hidden;
@@ -33,9 +33,9 @@ body, html {
   height: 520px;
   margin: 0 auto;
   margin-top: calc((100vh - 520px) / 2);
-  border: 5px solid rgb(190, 209, 85);
+  /* border: 5px solid #d3b17d; */
   border-radius: 5px;
-  background: rgba(233, 208, 120, 1);
+  background: rgb(234, 205, 118,0.6);
   /* background: url(../imgs/game_bg.jpg); */
   position: relative;
 }
@@ -45,10 +45,11 @@ body, html {
 .s{
   width: 16px;
   height: 16px;
-  border-radius: 3px;
+  border-radius: 6px;
   border: 2px solid white;
   background: rgb(255, 87, 87);
   position: absolute;
+  z-index: 5;
 }
 .food{
   width: 16px;
@@ -60,6 +61,7 @@ body, html {
   background-size: cover;
   display: inline-block;
   position: absolute;
+  z-index: 5;
 }
 /* 弹框 */
 .dialog-in{
